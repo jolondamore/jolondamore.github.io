@@ -64,10 +64,10 @@ In my case, setting `Image Format` reset some of the other settings in the windo
 
 ![image](/assets/building-linux-mac-m1/disk-util.png)
 
-Locate to where the disk image was saved (under the name `linux-kernel-fs`) and double click on it to mount it. Now there should be a Location named `workspace` in the Finder sidebar. This is where the Linux kernel will be built.
+Go to where the disk image was saved (under the name `linux-kernel-fs`) and double click on it to mount it. Now there should be a Location named `workspace` in the Finder sidebar. This is where the Linux kernel will be built.
 
 ## Cloning and Editing the Kernel
-The case-sensitive disk image is mounted at `/Volumes/workspace`. Change to this directory in terminal:
+The case-sensitive disk image is mounted at `/Volumes/workspace`. Go to this directory in terminal:
 ```console
 cd /Volumes/workspace
 ```
